@@ -1,0 +1,13 @@
+body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+canvas {
+    border:1px solid #000000;
+    background-color: #c0d854;
+}
+#end {
+    display: none;
+}
