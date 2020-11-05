@@ -194,7 +194,7 @@ const movement = (move, snakeHead, snakeBody, previousTail) => {
                                                                   //if you switch directions and the x or y of the head and previous part aren't the same
                                                                   //then the moving pattern logic crashes and all parts move in the same direction
         onOff = true;
-        filler.push(new rectangle(30, 30, "#1c4924", snakeHead.x, snakeHead.y)); // fill in the gaps in the corners of the snake
+        filler.push(new rectangle(30, 30, "#1c4924", snakeHead.x, snakeHead.y)); // fill the gaps in the corners of the snake pattern
     }
    
     for (let i = 0; i < filler.length; i++){ // when the tail of snake collides with the filler rectange, remove it from array
